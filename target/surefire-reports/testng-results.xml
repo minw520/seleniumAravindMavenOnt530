@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Example test run" duration-ms="30366" started-at="2018-11-21T23:49:12Z" finished-at="2018-11-21T23:49:43Z">
+    <groups>
+    </groups>
+    <test name="Simple Test" duration-ms="30366" started-at="2018-11-21T23:49:12Z" finished-at="2018-11-21T23:49:43Z">
+      <class name="AravindAll.aravindall.GoogleHomePageTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:AravindAll.aravindall.GoogleHomePageTest@6b2fad11]" name="testSetUp" is-config="true" duration-ms="10478" started-at="2018-11-21T23:49:12Z" finished-at="2018-11-21T23:49:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:AravindAll.aravindall.GoogleHomePageTest@6b2fad11]" name="verifyGooglePageTittle" duration-ms="2964" started-at="2018-11-21T23:49:23Z" finished-at="2018-11-21T23:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePageTittle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:AravindAll.aravindall.GoogleHomePageTest@6b2fad11]" name="tearDown" is-config="true" duration-ms="1485" started-at="2018-11-21T23:49:26Z" finished-at="2018-11-21T23:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AravindAll.aravindall.GoogleHomePageTest -->
+      <class name="TestNGOnePack.ClassTwo">
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:TestNGOnePack.ClassTwo@73f792cf]" name="testmethodone" duration-ms="942" started-at="2018-11-21T23:49:42Z" finished-at="2018-11-21T23:49:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodone -->
+      </class> <!-- TestNGOnePack.ClassTwo -->
+      <class name="TestNGOnePack.ClassOne">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNGOnePack.ClassOne@79b4d0f]" name="setup" is-config="true" duration-ms="13339" started-at="2018-11-21T23:48:59Z" finished-at="2018-11-21T23:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:TestNGOnePack.ClassOne@79b4d0f]" name="testmethodone" duration-ms="11" started-at="2018-11-21T23:49:42Z" finished-at="2018-11-21T23:49:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodone -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNGOnePack.ClassOne@79b4d0f]" name="tearDown" is-config="true" duration-ms="1322" started-at="2018-11-21T23:49:43Z" finished-at="2018-11-21T23:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGOnePack.ClassOne -->
+      <class name="AravindAll.aravindall.GetPageTitle">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:AravindAll.aravindall.GetPageTitle@79698539]" name="openbrowser" is-config="true" duration-ms="13300" started-at="2018-11-21T23:49:27Z" finished-at="2018-11-21T23:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:AravindAll.aravindall.GetPageTitle@79698539]" name="testmethodone" duration-ms="7" started-at="2018-11-21T23:49:41Z" finished-at="2018-11-21T23:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodone -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:AravindAll.aravindall.GetPageTitle@79698539]" name="closebrowser" is-config="true" duration-ms="1094" started-at="2018-11-21T23:49:41Z" finished-at="2018-11-21T23:49:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- AravindAll.aravindall.GetPageTitle -->
+    </test> <!-- Simple Test -->
+  </suite> <!-- Example test run -->
+</testng-results>

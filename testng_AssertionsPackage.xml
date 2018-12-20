@@ -1,0 +1,7 @@
+<suite name="Suite One">
+  <test name="Test One" >
+       <packages>
+             <package name="HardAssertions" />
+       </packages>
+    </test> 
+</suite>

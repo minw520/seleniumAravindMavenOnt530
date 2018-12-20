@@ -1,0 +1,10 @@
+<suite name="Suite One">
+ <test name="Test One" >
+  <classes>
+   <class name="TestNGOnePack.ClassOne" />
+   <class name="TestNGTwoPack.ClassTwo" />
+   <class name="TestNGThreePack.ClassOne" />
+   <class name="TestNGThreePack.ClassTwo" />  
+  </classes>
+ </test> 
+</suite>

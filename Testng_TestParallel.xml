@@ -1,0 +1,14 @@
+<suite name="webDriver" parallel="tests">
+   <test name="Test In FireFox" >
+    <parameter name="browser" value="FFX" />
+    <classes>
+      <class name="AravindAll.aravindall.TestParallel" />
+    </classes>
+  </test>
+   <test name="Test In Google Chrome" >
+    <parameter name="browser" value="CRM"></parameter>
+    <classes>
+      <class name="AravindAll.aravindall.TestParallel"></class>
+    </classes>
+  </test> 
+</suite>

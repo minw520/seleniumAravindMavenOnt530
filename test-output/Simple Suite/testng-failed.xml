@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Simple Suite]">
+  <test thread-count="5" name="Simple Skip Test(failed)">
+    <classes>
+      <class name="AravindAll.aravindall.TestDataDriven">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="LogIn_Test" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- AravindAll.aravindall.TestDataDriven -->
+    </classes>
+  </test> <!-- Simple Skip Test(failed) -->
+</suite> <!-- Failed suite [Simple Suite] -->

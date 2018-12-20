@@ -1,0 +1,17 @@
+<suite name="Suite One">
+  <test name="Test One" >
+    <classes>
+        <class name="TestNGOnePack.ClassOne" />
+          <methods>
+              <include name="testmethodone" />
+          </methods>
+       <class name="TestNGTwoPack.ClassTwo" />
+         <methods>
+              <exclude name="testmethodone" />
+          </methods>        
+    </classes>
+       <packages>
+             <package name="TestNGThreePack" />
+       </packages>
+    </test> 
+</suite>

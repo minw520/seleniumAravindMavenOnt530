@@ -1,0 +1,7 @@
+<suite name="Simple Suite">
+ <test name="Simple Skip Test">
+  <classes>
+   <class name = "AravindAll.aravindall.TestDataDriven"/>
+  </classes>
+ </test> 
+</suite>

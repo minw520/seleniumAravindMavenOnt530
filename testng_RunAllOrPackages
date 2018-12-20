@@ -1,0 +1,8 @@
+<suite name="Suite One">
+ <test name="Test One" >
+  <packages>
+   <package name="TestNGTwoPack" />
+   <package name="TestNGThreePack" />
+  </packages>
+ </test> 
+</suite>

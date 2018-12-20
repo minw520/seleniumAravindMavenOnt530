@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite One]">
+  <test thread-count="5" name="Test One(failed)">
+    <classes>
+      <class name="HardAssertions.AssertassertAssertAssertFalse">
+        <methods>
+          <include name="load_url"/>
+          <include name="asserttrue2"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- HardAssertions.AssertassertAssertAssertFalse -->
+      <class name="HardAssertions.AssertionAssertNotNull">
+        <methods>
+          <include name="notnull1"/>
+          <include name="tearDown"/>
+          <include name="load_url"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- HardAssertions.AssertionAssertNotNull -->
+      <class name="HardAssertions.AssertionAssertNull">
+        <methods>
+          <include name="load_url"/>
+          <include name="null2"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- HardAssertions.AssertionAssertNull -->
+      <class name="HardAssertions.AssertassertEquals_03">
+        <methods>
+          <include name="asserttrue2"/>
+          <include name="tearDown"/>
+          <include name="load_url"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- HardAssertions.AssertassertEquals_03 -->
+      <class name="HardAssertions.AssertassertEquals">
+        <methods>
+          <include name="assertion_method_2"/>
+          <include name="load_url"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- HardAssertions.AssertassertEquals -->
+      <class name="HardAssertions.AssertassertEquals_02">
+        <methods>
+          <include name="assertion_method_1"/>
+          <include name="assertion_method_2"/>
+          <include name="tearDown"/>
+          <include name="load_url"/>
+          <include name="verification_method"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- HardAssertions.AssertassertEquals_02 -->
+    </classes>
+  </test> <!-- Test One(failed) -->
+</suite> <!-- Failed suite [Suite One] -->

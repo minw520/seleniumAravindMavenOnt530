@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [webDriver]" parallel="tests">
+  <test thread-count="5" name="Test In Google Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="CRM"/>
+    <classes>
+      <class name="AravindAll.aravindall.TestParallel">
+        <methods>
+          <include name="verify_message"/>
+          <include name="closebrowser"/>
+          <include name="verify_title"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- AravindAll.aravindall.TestParallel -->
+    </classes>
+  </test> <!-- Test In Google Chrome(failed) -->
+</suite> <!-- Failed suite [webDriver] -->

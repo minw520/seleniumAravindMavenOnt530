@@ -1,0 +1,9 @@
+<suite name="Suite One">
+  <test name="Test One" >
+     <packages>
+        <package name=".*">
+           <include name="TestNGOnePack" />
+        </package>
+     </packages>
+  </test>
+</suite>

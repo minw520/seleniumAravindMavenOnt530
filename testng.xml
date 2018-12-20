@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example test run">
+ 
+  <test name="Simple Test">
+    <classes>
+      <class name="AravindAll.aravindall.GoogleHomePageTest"/>
+      <class name="AravindAll.aravindall.GetPageTitle"/>
+      <class name="TestNGOnePack.ClassOne" />
+  	  <class name="TestNGOnePack.ClassTwo" /> 
+  	  
+    </classes>
+  </test>
+   <test name="Test two" >
+  <packages>
+   <package name="TestNGTwoPack" />
+   <package name="TestNGThreePack" />
+  </packages>
+ </test> 
+
+ 
+</suite>

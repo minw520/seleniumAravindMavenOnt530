@@ -1,0 +1,9 @@
+<suite name="Suite One">
+  <test name="Test One" >
+  <packages>
+   <package name=".*">
+    <exclude name="TestNGThreePack" />
+   </package>
+  </packages>
+ </test>
+</suite>
